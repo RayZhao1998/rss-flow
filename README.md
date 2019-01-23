@@ -1,4 +1,4 @@
-流程：
+## 流程：
 
 - 首先读取存储 RSS 的列表
 
@@ -7,15 +7,24 @@
 - 存储所有博客文章名称和 Last update time，放在某个数据结构中。（字典？）
 
 - 对所有文章按照 last update time 进行排序。
+
 - 输出 title 和 date 。暂不考虑美化。
 
-环境：
+## 环境：
 
 Python
 
-模块：
+## 模块：
 
-feedparser
+- requests
+- feedparser
+- flask
+
+## 安装运行
+
+```
+pip install -r requirements.txt
+```
 
 参考内容：
 
