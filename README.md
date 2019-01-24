@@ -24,9 +24,11 @@ Python
 
 ```
 pip install -r requirements.txt
+python generate_page.py
+python get_first_10_blogs.py
 ```
 
-参考内容：
+## 参考内容：
 
 [如何判断rss是否更新过](https://segmentfault.com/q/1010000002681837)
 
