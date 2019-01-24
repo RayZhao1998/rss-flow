@@ -9,10 +9,11 @@ def index():
     blogs = []
     f = open("index.txt")
     for i in range(10):
+        author = f.readline()
         title = f.readline()
         link = f.readline()
         time = f.readline()
-        blogs.append({'title': title, 'link': link, 'time': time})
+        blogs.append({'author': author, 'title': title, 'link': link, 'time': time})
     f.close()
     return jsonify(blogs)
 
