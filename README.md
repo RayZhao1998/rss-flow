@@ -27,6 +27,7 @@ pip install -r requirements.txt
 python generate_page.py
 python get_first_10_blogs.py
 ```
+访问 `127.0.0.1:5000` 即可获取最新10篇博客
 
 ## 参考内容：
 
